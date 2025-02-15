@@ -33,6 +33,12 @@
   border: 1px solid var(--purple);
   width: 80%;
   border-radius: 20px;
+  opacity: 0.9;
+}
+
+.login:hover,
+.signup:hover {
+  opacity: 1;
 }
 
 .login {

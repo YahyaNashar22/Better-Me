@@ -1,0 +1,128 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+  row-gap: 20px;
+}
+
+.windowImg {
+  width: 480px;
+}
+
+.greetings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 480px;
+}
+
+.title,
+.subtitle {
+  color: var(--purple);
+  font-weight: 700;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.subtitle {
+  opacity: 0.7;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 20px;
+  width: 480px;
+}
+
+.formLabel {
+  position: relative;
+  width: 90%;
+}
+
+.formInput {
+  color: var(--purple);
+  background-color: var(--darker-white);
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 100%;
+  padding-left: 60px;
+  height: 50px;
+}
+
+.formInput::placeholder {
+  color: var(--purple);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.leading {
+  position: absolute;
+  left: 16px;
+  bottom: 10px;
+}
+
+.login {
+  align-self: center;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  transition: 0.3s ease-in-out;
+  padding: 10px 20px;
+  border: 1px solid var(--purple);
+  width: 60%;
+  border-radius: 20px;
+  opacity: 0.9;
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+.login:hover {
+  opacity: 1;
+}
+
+.forgot {
+  color: var(--light-purple);
+  align-self: center;
+  transition: 0.3s ease-in-out;
+}
+
+.forgot:hover {
+  color: var(--purple);
+}
+
+.noAccount {
+  color: var(--purple);
+  font-weight: 700;
+}
+
+.signup {
+  color: var(--transparent-purple);
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.signup:hover {
+  color: var(--purple);
+}
+
+@media (max-width: 600px) {
+  .windowImg,
+  .greetings,
+  .loginForm {
+    width: 350px;
+  }
+}

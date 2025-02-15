@@ -13,7 +13,10 @@ body {
 :root {
   --pink: #fdbfd4;
   --purple: #7b5cc6;
+  --light-purple: #7b5cc680;
+  --transparent-purple: #BDADE3;
   --primary-accent: #000000cc;
   --secondary-accent: #00000080;
   --white: #ffffff;
+  --darker-white: #faf8ff;
 }
