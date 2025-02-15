@@ -4,4 +4,6 @@
   box-sizing: border-box;
 }
 
-
+:root {
+  --pink: #FDBFD4;
+}
