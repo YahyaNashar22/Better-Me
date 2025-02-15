@@ -1,10 +1,10 @@
 import "./App.css";
-import SplashScreen from "./components/SplashScreen/SplashScreen";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
     <>
-      <SplashScreen />
+      <AppRoutes />
     </>
   );
 }

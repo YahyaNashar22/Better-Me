@@ -11,13 +11,12 @@ const AppRoutes = () => {
     <Suspense fallback={<SplashScreen />}>
       <Routes>
         <Route path="/" element={<Welcome />}>
-          <Route path="/" element={<Welcome />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
         </Route>
 
         {/* Not Found Route */}
-        <Route path="*" element={<p>not found</p>} />
+        <Route path="*" element={<h1>not found</h1>} />
       </Routes>
     </Suspense>
   );

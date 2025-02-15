@@ -1,9 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap");
+
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
 
+body {
+  font-family: Laila, sans-serif;
+}
+
 :root {
-  --pink: #FDBFD4;
+  --pink: #fdbfd4;
+  --purple: #7b5cc6;
+  --primary-accent: #000000cc;
+  --secondary-accent: #00000080;
+  --white: #ffffff;
 }
